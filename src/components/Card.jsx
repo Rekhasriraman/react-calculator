@@ -1,14 +1,13 @@
-import PropTypes from 'prop-types';
-import './Button.css';
-
+import PropTypes from 'prop-types'
+import  './Card.css'
 
 const Card = ({children}) => {
-    return (
-        <div className='Card'>{children}</div>
-    );
+  return (
+    <div className="Card">{children}</div> 
+  );
 };
-Card.propTypes = {
+  Card.propTypes ={
     children:PropTypes.node.isRequired
-};
+  };
 
 export default Card;
